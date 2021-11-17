@@ -13,6 +13,12 @@ class Control:
         self._time_process_eyegazeEstimation = None
         self._frame_idx = 0
         self._count_face = 0
+        self._set_id_face = 1
+        self._ID_analytic_row = 0
+        self._ID_analytic_frameData_row = 0
+        self._current_numFace = 0
+        self._list_Currentnames =[]
+        self._firstFaceDetected = True
         # running_control
 
 

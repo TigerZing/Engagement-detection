@@ -14,9 +14,11 @@ class Student:
         # status
         self._face_region = None
         self._face_point = None
+        self._face_coord = None
         self._status_eyeGaze_count = 0
         self._max_distance = 0 #eyeGaze line
         self._total_distance = 0 #eyeGaze line
+        self._num_Detected = 0
 
         # analytic results
         self._emotion = {"Angry": 0, "Disgusted": 0, "Fearful" :0, "Happy":0, "Neutral":0, "Sad":0, "Surprised":0}
@@ -44,5 +46,14 @@ class Student:
                 'face_coord':face_coord,
                 'frame_idx':frame_idx}
         self._analytic_results.append(dict_)
+
+    def analytic_student_infos(self, emotion, emotionWeight=None, eyeGazeWeight=None, concentration_index=None, engagement_level=None, attention=None, class_id=None):
+        self._class_id = class_id
+        self._emotion_momment = emotion
+        self._emotion_weight = emotionWeight
+        self._eye_gaze_weight = eyeGazeWeight
+        self._concentration_index = concentration_index
+        self._attention_momment = attention
+        self._engagement_level_momment = engagement_level
 
 

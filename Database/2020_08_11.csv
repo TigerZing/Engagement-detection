@@ -1,0 +1,275 @@
+,Id,Id_student,Id_class,Index_frame,Face_box,Face_id,Emotion,Attention,Engagement_level,interval
+0,1,Ho,None,25,"[928, 63, 157, 199]",000025_Ho,Neutral,focused,low engagement,1
+1,2,Thuy,None,25,"[409, 466, 117, 156]",000025_Thuy,Neutral,focused,low engagement,1
+2,3,Huyen,None,25,"[119, 453, 95, 116]",000025_Huyen,Fearful,focused,high engagement,1
+3,4,U. Ueda,None,25,"[888, 563, 152, 178]",000025_U. Ueda,Fearful,focused,high engagement,1
+4,5,Thuy,None,50,"[393, 471, 111, 147]",000050_Thuy,Neutral,focused,low engagement,1
+5,6,Ho,None,50,"[960, 63, 188, 243]",000050_Ho,Happy,focused,medium engagement,1
+6,7,U. Ueda,None,50,"[896, 565, 147, 174]",000050_U. Ueda,Neutral,focused,low engagement,1
+7,8,Huyen,None,50,"[128, 457, 94, 117]",000050_Huyen,Neutral,focused,low engagement,1
+8,9,Ho,None,75,"[942, 41, 186, 239]",000075_Ho,Fearful,focused,high engagement,1
+9,10,Thuy,None,75,"[387, 473, 99, 141]",000075_Thuy,Sad,focused,medium engagement,1
+10,11,Huyen,None,75,"[125, 457, 95, 116]",000075_Huyen,Sad,focused,medium engagement,1
+11,12,U. Ueda,None,75,"[896, 572, 151, 174]",000075_U. Ueda,Neutral,focused,low engagement,1
+12,13,Ho,None,100,"[949, 49, 185, 239]",000100_Ho,Sad,focused,medium engagement,1
+13,14,Thuy,None,100,"[386, 473, 98, 142]",000100_Thuy,Sad,focused,medium engagement,1
+14,15,Ho,None,125,"[950, 57, 183, 234]",000125_Ho,Neutral,focused,low engagement,1
+15,16,Thuy,None,125,"[380, 108, 113, 157]",000125_Thuy,Happy,focused,medium engagement,1
+16,17,Ho,None,150,"[957, 51, 181, 235]",000150_Ho,Happy,focused,medium engagement,1
+17,18,Thuy,None,150,"[384, 109, 105, 150]",000150_Thuy,Sad,focused,medium engagement,1
+18,19,Ho,None,175,"[961, 49, 188, 241]",000175_Ho,Fearful,focused,high engagement,1
+19,20,Thuy,None,175,"[400, 104, 114, 153]",000175_Thuy,Neutral,focused,low engagement,1
+20,21,Thuy,None,200,"[438, 110, 111, 142]",000200_Thuy,Neutral,focused,low engagement,2
+21,22,Ho,None,200,"[957, 53, 176, 229]",000200_Ho,Fearful,focused,high engagement,2
+22,23,U. Ueda,None,200,"[536, 548, 141, 181]",000200_U. Ueda,Fearful,focused,high engagement,2
+23,24,Huyen,None,200,"[122, 99, 90, 110]",000200_Huyen,Fearful,focused,high engagement,2
+24,25,Thuy,None,225,"[435, 112, 111, 145]",000225_Thuy,Neutral,focused,low engagement,2
+25,26,U. Ueda,None,225,"[519, 547, 151, 193]",000225_U. Ueda,Fearful,focused,high engagement,2
+26,27,Ho,None,225,"[947, 57, 179, 231]",000225_Ho,Neutral,focused,low engagement,2
+27,28,Thuy,None,250,"[435, 108, 112, 144]",000250_Thuy,Happy,focused,medium engagement,2
+28,29,Ho,None,250,"[957, 53, 184, 234]",000250_Ho,Happy,focused,medium engagement,2
+29,30,U. Ueda,None,250,"[529, 552, 158, 194]",000250_U. Ueda,Fearful,focused,high engagement,2
+30,31,Ho,None,275,"[945, 98, 129, 158]",000275_Ho,Happy,focused,medium engagement,2
+31,32,Thuy,None,275,"[435, 86, 112, 146]",000275_Thuy,Happy,focused,medium engagement,2
+32,33,U. Ueda,None,275,"[536, 559, 159, 189]",000275_U. Ueda,Happy,focused,medium engagement,2
+33,34,Thuy,None,300,"[432, 85, 112, 146]",000300_Thuy,Happy,focused,medium engagement,2
+34,35,U. Ueda,None,300,"[531, 545, 147, 191]",000300_U. Ueda,Fearful,focused,high engagement,2
+35,36,Ho,None,325,"[983, 89, 167, 206]",000325_Ho,Happy,focused,medium engagement,2
+36,37,Thuy,None,325,"[446, 97, 112, 145]",000325_Thuy,Happy,focused,medium engagement,2
+37,38,Huyen,None,325,"[129, 86, 92, 114]",000325_Huyen,Happy,focused,medium engagement,2
+38,39,Ho,None,350,"[979, 73, 164, 205]",000350_Ho,Happy,focused,medium engagement,2
+39,40,Thuy,None,350,"[438, 94, 112, 145]",000350_Thuy,Happy,focused,medium engagement,2
+40,41,Huyen,None,350,"[99, 91, 88, 112]",000350_Huyen,Happy,focused,medium engagement,2
+41,42,U. Ueda,None,350,"[544, 581, 157, 187]",000350_U. Ueda,Happy,focused,medium engagement,2
+42,43,Ho,None,375,"[1028, 73, 127, 159]",000375_Ho,Happy,focused,medium engagement,3
+43,44,Thuy,None,375,"[437, 101, 121, 160]",000375_Thuy,Fearful,focused,high engagement,3
+44,45,Ho,None,400,"[953, 102, 107, 132]",000400_Ho,Happy,focused,medium engagement,3
+45,46,Thuy,None,400,"[450, 97, 117, 153]",000400_Thuy,Happy,focused,medium engagement,3
+46,47,Thuy,None,425,"[444, 97, 114, 145]",000425_Thuy,Happy,focused,medium engagement,3
+47,48,Ho,None,425,"[933, 85, 149, 187]",000425_Ho,Happy,focused,medium engagement,3
+48,49,Huyen,None,425,"[157, 93, 97, 119]",000425_Huyen,Happy,focused,medium engagement,3
+49,50,Ho,None,450,"[911, 74, 149, 190]",000450_Ho,Happy,focused,medium engagement,3
+50,51,Thuy,None,450,"[430, 100, 113, 150]",000450_Thuy,Happy,focused,medium engagement,3
+51,52,Huyen,None,450,"[151, 97, 96, 120]",000450_Huyen,Surprised,focused,strong engagement,3
+52,53,Ho,None,475,"[945, 62, 162, 204]",000475_Ho,Happy,focused,medium engagement,3
+53,54,Thuy,None,475,"[415, 110, 109, 146]",000475_Thuy,Happy,focused,medium engagement,3
+54,55,Huyen,None,475,"[156, 94, 97, 122]",000475_Huyen,Angry,focused,high engagement,3
+55,56,Thuy,None,500,"[432, 113, 110, 143]",000500_Thuy,Neutral,focused,low engagement,3
+56,57,Ho,None,500,"[991, 70, 147, 198]",000500_Ho,Fearful,focused,high engagement,3
+57,58,Huyen,None,500,"[151, 89, 95, 116]",000500_Huyen,Neutral,focused,low engagement,3
+58,59,Thuy,None,525,"[432, 96, 119, 160]",000525_Thuy,Neutral,focused,low engagement,3
+59,60,Huyen,None,525,"[149, 81, 88, 113]",000525_Huyen,Fearful,focused,high engagement,3
+60,61,Thuy,None,550,"[441, 113, 110, 140]",000550_Thuy,Neutral,focused,low engagement,3
+61,62,Ho,None,550,"[1065, 62, 116, 175]",000550_Ho,Happy,focused,medium engagement,3
+62,63,Thuy,None,575,"[439, 113, 110, 142]",000575_Thuy,Neutral,focused,low engagement,4
+63,64,Ho,None,575,"[1060, 59, 116, 176]",000575_Ho,Angry,focused,high engagement,4
+64,65,Ho,None,600,"[925, 63, 159, 196]",000600_Ho,Neutral,focused,low engagement,4
+65,66,Thuy,None,600,"[439, 114, 110, 142]",000600_Thuy,Neutral,focused,low engagement,4
+66,67,Huyen,None,600,"[166, 100, 81, 104]",000600_Huyen,Neutral,focused,low engagement,4
+67,68,Thuy,None,625,"[441, 117, 108, 138]",000625_Thuy,Fearful,focused,high engagement,4
+68,69,Huyen,None,625,"[160, 100, 86, 108]",000625_Huyen,Neutral,focused,low engagement,4
+69,70,Ho,None,625,"[882, 56, 197, 256]",000625_Ho,Neutral,focused,low engagement,4
+70,71,Thuy,None,650,"[439, 114, 109, 142]",000650_Thuy,Neutral,focused,low engagement,4
+71,72,Huyen,None,650,"[156, 103, 86, 105]",000650_Huyen,Happy,focused,medium engagement,4
+72,73,Ho,None,650,"[880, 64, 195, 249]",000650_Ho,Happy,focused,medium engagement,4
+73,74,U. Ueda,None,650,"[555, 544, 161, 194]",000650_U. Ueda,Happy,focused,medium engagement,4
+74,75,Thuy,None,675,"[433, 106, 109, 144]",000675_Thuy,Happy,focused,medium engagement,4
+75,76,Ho,None,675,"[894, 53, 185, 233]",000675_Ho,Happy,focused,medium engagement,4
+76,77,Huyen,None,675,"[156, 98, 86, 104]",000675_Huyen,Happy,focused,medium engagement,4
+77,78,U. Ueda,None,675,"[561, 551, 159, 192]",000675_U. Ueda,Sad,focused,medium engagement,4
+78,79,Thuy,None,700,"[423, 110, 108, 138]",000700_Thuy,Neutral,focused,low engagement,4
+79,80,Huyen,None,700,"[157, 96, 84, 105]",000700_Huyen,Happy,focused,medium engagement,4
+80,81,Ho,None,700,"[905, 61, 169, 220]",000700_Ho,Happy,focused,medium engagement,4
+81,82,U. Ueda,None,700,"[562, 545, 152, 191]",000700_U. Ueda,Sad,focused,medium engagement,4
+82,83,Ho,None,725,"[904, 69, 177, 226]",000725_Ho,Happy,focused,medium engagement,4
+83,84,U. Ueda,None,725,"[564, 544, 143, 186]",000725_U. Ueda,Fearful,focused,high engagement,4
+84,85,Thuy,None,725,"[418, 103, 113, 151]",000725_Thuy,Neutral,focused,low engagement,4
+85,86,Huyen,None,725,"[149, 96, 89, 107]",000725_Huyen,Neutral,focused,low engagement,4
+86,87,U. Ueda,None,750,"[566, 544, 142, 187]",000750_U. Ueda,Sad,focused,medium engagement,5
+87,88,Thuy,None,750,"[419, 105, 114, 151]",000750_Thuy,Neutral,focused,low engagement,5
+88,89,Huyen,None,750,"[152, 100, 85, 108]",000750_Huyen,Neutral,focused,low engagement,5
+89,90,Ho,None,750,"[886, 64, 221, 294]",000750_Ho,Sad,focused,medium engagement,5
+90,91,Thuy,None,775,"[419, 108, 113, 149]",000775_Thuy,Neutral,focused,low engagement,5
+91,92,Ho,None,775,"[885, 63, 220, 291]",000775_Ho,Sad,focused,medium engagement,5
+92,93,Huyen,None,775,"[145, 100, 89, 111]",000775_Huyen,Neutral,focused,low engagement,5
+93,94,U. Ueda,None,775,"[566, 548, 144, 186]",000775_U. Ueda,Sad,focused,medium engagement,5
+94,95,Thuy,None,800,"[410, 101, 106, 150]",000800_Thuy,Happy,focused,medium engagement,5
+95,96,Huyen,None,800,"[152, 101, 85, 107]",000800_Huyen,Fearful,focused,high engagement,5
+96,97,Ho,None,800,"[866, 72, 199, 254]",000800_Ho,Fearful,focused,high engagement,5
+97,98,Thuy,None,825,"[403, 114, 92, 130]",000825_Thuy,Sad,focused,medium engagement,5
+98,99,Huyen,None,825,"[133, 92, 91, 114]",000825_Huyen,Neutral,focused,low engagement,5
+99,100,Ho,None,825,"[870, 71, 196, 250]",000825_Ho,Fearful,focused,high engagement,5
+100,101,U. Ueda,None,825,"[557, 556, 147, 180]",000825_U. Ueda,Sad,focused,medium engagement,5
+101,102,Ho,None,850,"[877, 73, 192, 247]",000850_Ho,Happy,focused,medium engagement,5
+102,103,Thuy,None,850,"[402, 109, 93, 136]",000850_Thuy,Happy,focused,medium engagement,5
+103,104,Huyen,None,850,"[129, 91, 90, 117]",000850_Huyen,Neutral,focused,low engagement,5
+104,105,Thuy,None,875,"[398, 111, 98, 138]",000875_Thuy,Sad,focused,medium engagement,5
+105,106,Ho,None,875,"[868, 75, 202, 256]",000875_Ho,Fearful,focused,high engagement,5
+106,107,Huyen,None,875,"[131, 95, 87, 110]",000875_Huyen,Surprised,focused,strong engagement,5
+107,108,Huyen,None,900,"[132, 104, 82, 108]",000900_Huyen,Happy,focused,medium engagement,5
+108,109,U. Ueda,None,900,"[221, 562, 154, 180]",000900_U. Ueda,Sad,focused,medium engagement,5
+109,110,Ho,None,900,"[869, 76, 191, 260]",000900_Ho,Fearful,focused,high engagement,5
+110,111,Ho,None,925,"[870, 72, 259, 325]",000925_Ho,Sad,focused,medium engagement,5
+111,112,U. Ueda,None,925,"[243, 560, 151, 178]",000925_U. Ueda,Sad,focused,medium engagement,5
+112,113,Huyen,None,925,"[146, 109, 74, 99]",000925_Huyen,Surprised,focused,strong engagement,5
+113,114,Ho,None,950,"[872, 67, 255, 320]",000950_Ho,Sad,focused,medium engagement,6
+114,115,Huyen,None,950,"[136, 100, 86, 115]",000950_Huyen,Fearful,focused,high engagement,6
+115,116,U. Ueda,None,950,"[238, 550, 151, 183]",000950_U. Ueda,Sad,focused,medium engagement,6
+116,117,Thuy,None,975,"[434, 110, 111, 140]",000975_Thuy,Neutral,focused,low engagement,6
+117,118,Ho,None,975,"[876, 66, 246, 312]",000975_Ho,Happy,focused,medium engagement,6
+118,119,M. Nehal,None,975,"[933, 476, 95, 114]",000975_M. Nehal,Fearful,focused,high engagement,6
+119,120,U. Ueda,None,975,"[251, 544, 145, 188]",000975_U. Ueda,Sad,focused,medium engagement,6
+120,121,Thuy,None,1000,"[435, 113, 112, 141]",001000_Thuy,Neutral,focused,low engagement,6
+121,122,M. Nehal,None,1000,"[909, 499, 94, 110]",001000_M. Nehal,Fearful,focused,high engagement,6
+122,123,Huyen,None,1000,"[150, 98, 93, 115]",001000_Huyen,Fearful,focused,high engagement,6
+123,124,Ho,None,1000,"[867, 40, 204, 266]",001000_Ho,Fearful,focused,high engagement,6
+124,125,U. Ueda,None,1000,"[241, 583, 148, 174]",001000_U. Ueda,Neutral,focused,low engagement,6
+125,126,Ho,None,1025,"[847, 60, 173, 223]",001025_Ho,Neutral,focused,low engagement,6
+126,127,Thuy,None,1025,"[438, 106, 109, 142]",001025_Thuy,Neutral,focused,low engagement,6
+127,128,M. Nehal,None,1025,"[959, 461, 105, 131]",001025_M. Nehal,Fearful,focused,high engagement,6
+128,129,Huyen,None,1025,"[152, 98, 90, 113]",001025_Huyen,Fearful,focused,high engagement,6
+129,130,Ho,None,1050,"[849, 63, 177, 222]",001050_Ho,Neutral,focused,low engagement,6
+130,131,M. Nehal,None,1050,"[943, 470, 101, 125]",001050_M. Nehal,Fearful,focused,high engagement,6
+131,132,Thuy,None,1050,"[436, 106, 111, 144]",001050_Thuy,Neutral,focused,low engagement,6
+132,133,Huyen,None,1050,"[152, 98, 91, 114]",001050_Huyen,Fearful,focused,high engagement,6
+133,134,Thuy,None,1075,"[439, 109, 110, 141]",001075_Thuy,Neutral,focused,low engagement,6
+134,135,Ho,None,1075,"[885, 62, 163, 212]",001075_Ho,Happy,focused,medium engagement,6
+135,136,M. Nehal,None,1075,"[934, 476, 101, 122]",001075_M. Nehal,Surprised,distracted,disengagement,6
+136,137,Huyen,None,1075,"[158, 102, 87, 108]",001075_Huyen,Surprised,focused,strong engagement,6
+137,138,M. Nehal,None,1100,"[905, 496, 94, 108]",001100_M. Nehal,Fearful,focused,high engagement,6
+138,139,Thuy,None,1100,"[436, 105, 109, 141]",001100_Thuy,Neutral,focused,low engagement,6
+139,140,Ho,None,1100,"[877, 60, 168, 214]",001100_Ho,Happy,focused,medium engagement,6
+140,141,Huyen,None,1100,"[154, 99, 89, 110]",001100_Huyen,Surprised,focused,strong engagement,6
+141,142,Ho,None,1125,"[875, 61, 171, 218]",001125_Ho,Neutral,focused,low engagement,7
+142,143,M. Nehal,None,1125,"[918, 496, 95, 116]",001125_M. Nehal,Surprised,focused,strong engagement,7
+143,144,Thuy,None,1125,"[438, 105, 110, 146]",001125_Thuy,Neutral,focused,low engagement,7
+144,145,Huyen,None,1125,"[153, 98, 91, 113]",001125_Huyen,Fearful,focused,high engagement,7
+145,146,Thuy,None,1150,"[438, 108, 108, 139]",001150_Thuy,Neutral,focused,low engagement,7
+146,147,Ho,None,1150,"[878, 62, 170, 219]",001150_Ho,Happy,focused,medium engagement,7
+147,148,M. Nehal,None,1150,"[941, 487, 95, 118]",001150_M. Nehal,Fearful,focused,high engagement,7
+148,149,Huyen,None,1150,"[157, 100, 87, 109]",001150_Huyen,Fearful,focused,high engagement,7
+149,150,Thuy,None,1175,"[433, 104, 108, 140]",001175_Thuy,Neutral,focused,low engagement,7
+150,151,M. Nehal,None,1175,"[958, 474, 112, 142]",001175_M. Nehal,Happy,focused,medium engagement,7
+151,152,Ho,None,1175,"[876, 54, 177, 232]",001175_Ho,Neutral,focused,low engagement,7
+152,153,Huyen,None,1175,"[156, 101, 88, 110]",001175_Huyen,Fearful,focused,high engagement,7
+153,154,Thuy,None,1200,"[433, 106, 104, 138]",001200_Thuy,Neutral,focused,low engagement,7
+154,155,Ho,None,1200,"[875, 55, 177, 232]",001200_Ho,Neutral,focused,low engagement,7
+155,156,M. Nehal,None,1200,"[916, 489, 99, 122]",001200_M. Nehal,Happy,focused,medium engagement,7
+156,157,Huyen,None,1200,"[157, 99, 91, 111]",001200_Huyen,Fearful,focused,high engagement,7
+157,158,Ho,None,1225,"[876, 55, 175, 227]",001225_Ho,Neutral,focused,low engagement,7
+158,159,Thuy,None,1225,"[430, 104, 109, 144]",001225_Thuy,Neutral,focused,low engagement,7
+159,160,M. Nehal,None,1225,"[928, 484, 99, 122]",001225_M. Nehal,Fearful,focused,high engagement,7
+160,161,Huyen,None,1225,"[166, 91, 88, 110]",001225_Huyen,Fearful,focused,high engagement,7
+161,162,Thuy,None,1250,"[412, 98, 96, 146]",001250_Thuy,Happy,focused,medium engagement,7
+162,163,Huyen,None,1250,"[161, 94, 89, 109]",001250_Huyen,Neutral,focused,low engagement,7
+163,164,M. Nehal,None,1250,"[923, 478, 95, 112]",001250_M. Nehal,Fearful,focused,high engagement,7
+164,165,Ho,None,1250,"[931, 78, 144, 176]",001250_Ho,Fearful,focused,high engagement,7
+165,166,Ho,None,1275,"[911, 62, 140, 171]",001275_Ho,Neutral,focused,low engagement,7
+166,167,Thuy,None,1275,"[424, 98, 107, 147]",001275_Thuy,Neutral,focused,low engagement,7
+167,168,M. Nehal,None,1275,"[918, 486, 99, 116]",001275_M. Nehal,Fearful,focused,high engagement,7
+168,169,Huyen,None,1275,"[154, 106, 77, 99]",001275_Huyen,Fearful,focused,high engagement,7
+169,170,Thuy,None,1300,"[446, 103, 107, 138]",001300_Thuy,Neutral,focused,low engagement,7
+170,171,Ho,None,1300,"[873, 56, 171, 215]",001300_Ho,Neutral,focused,low engagement,7
+171,172,M. Nehal,None,1300,"[911, 485, 93, 116]",001300_M. Nehal,Neutral,focused,low engagement,7
+172,173,Huyen,None,1300,"[161, 97, 88, 110]",001300_Huyen,Neutral,focused,low engagement,7
+173,174,U. Ueda,None,1300,"[218, 563, 150, 183]",001300_U. Ueda,Sad,focused,medium engagement,7
+174,175,Thuy,None,1325,"[442, 102, 108, 139]",001325_Thuy,Neutral,focused,low engagement,8
+175,176,Ho,None,1325,"[883, 48, 181, 228]",001325_Ho,Sad,focused,medium engagement,8
+176,177,Huyen,None,1325,"[169, 99, 88, 109]",001325_Huyen,Fearful,focused,high engagement,8
+177,178,M. Nehal,None,1325,"[908, 485, 96, 119]",001325_M. Nehal,Fearful,focused,high engagement,8
+178,179,U. Ueda,None,1325,"[226, 564, 148, 173]",001325_U. Ueda,Fearful,focused,high engagement,8
+179,180,Thuy,None,1350,"[442, 106, 105, 137]",001350_Thuy,Neutral,focused,low engagement,8
+180,181,M. Nehal,None,1350,"[908, 492, 95, 121]",001350_M. Nehal,Neutral,focused,low engagement,8
+181,182,U. Ueda,None,1350,"[238, 554, 153, 183]",001350_U. Ueda,Sad,focused,medium engagement,8
+182,183,Ho,None,1350,"[910, 70, 146, 179]",001350_Ho,Neutral,focused,low engagement,8
+183,184,Huyen,None,1350,"[176, 100, 84, 106]",001350_Huyen,Neutral,focused,low engagement,8
+184,185,Thuy,None,1375,"[440, 106, 107, 136]",001375_Thuy,Neutral,focused,low engagement,8
+185,186,Ho,None,1375,"[890, 55, 154, 193]",001375_Ho,Happy,focused,medium engagement,8
+186,187,U. Ueda,None,1375,"[239, 559, 153, 181]",001375_U. Ueda,Sad,focused,medium engagement,8
+187,188,M. Nehal,None,1375,"[908, 484, 99, 130]",001375_M. Nehal,Neutral,focused,low engagement,8
+188,189,Huyen,None,1375,"[164, 89, 95, 119]",001375_Huyen,Fearful,focused,high engagement,8
+189,190,Thuy,None,1400,"[441, 106, 107, 138]",001400_Thuy,Neutral,focused,low engagement,8
+190,191,Ho,None,1400,"[893, 42, 159, 203]",001400_Ho,Neutral,focused,low engagement,8
+191,192,M. Nehal,None,1400,"[890, 475, 94, 120]",001400_M. Nehal,Fearful,distracted,disengagement,8
+192,193,Huyen,None,1400,"[153, 87, 93, 118]",001400_Huyen,Neutral,focused,low engagement,8
+193,194,U. Ueda,None,1400,"[240, 567, 148, 175]",001400_U. Ueda,Neutral,focused,low engagement,8
+194,195,Thuy,None,1425,"[439, 103, 107, 139]",001425_Thuy,Neutral,focused,low engagement,8
+195,196,M. Nehal,None,1425,"[940, 488, 101, 130]",001425_M. Nehal,Happy,focused,medium engagement,8
+196,197,Ho,None,1425,"[902, 46, 164, 207]",001425_Ho,Sad,focused,medium engagement,8
+197,198,U. Ueda,None,1425,"[241, 564, 144, 177]",001425_U. Ueda,Happy,focused,medium engagement,8
+198,199,Huyen,None,1425,"[155, 91, 90, 118]",001425_Huyen,Neutral,focused,low engagement,8
+199,200,Thuy,None,1450,"[435, 106, 109, 142]",001450_Thuy,Neutral,focused,low engagement,8
+200,201,M. Nehal,None,1450,"[933, 472, 90, 105]",001450_M. Nehal,Surprised,focused,strong engagement,8
+201,202,Ho,None,1450,"[898, 47, 161, 203]",001450_Ho,Sad,focused,medium engagement,8
+202,203,Huyen,None,1450,"[167, 92, 93, 117]",001450_Huyen,Sad,focused,medium engagement,8
+203,204,U. Ueda,None,1450,"[235, 550, 159, 198]",001450_U. Ueda,Neutral,focused,low engagement,8
+204,205,Ho,None,1475,"[900, 49, 162, 208]",001475_Ho,Sad,focused,medium engagement,8
+205,206,U. Ueda,None,1475,"[244, 562, 148, 178]",001475_U. Ueda,Neutral,focused,low engagement,8
+206,207,Thuy,None,1475,"[438, 108, 109, 142]",001475_Thuy,Neutral,focused,low engagement,8
+207,208,M. Nehal,None,1475,"[934, 472, 96, 107]",001475_M. Nehal,Fearful,focused,high engagement,8
+208,209,Huyen,None,1475,"[212, 109, 34, 44]",001475_Huyen,Happy,focused,medium engagement,8
+209,210,Ho,None,1500,"[898, 52, 161, 206]",001500_Ho,Sad,focused,medium engagement,9
+210,211,Thuy,None,1500,"[438, 108, 107, 141]",001500_Thuy,Neutral,focused,low engagement,9
+211,212,Huyen,None,1500,"[147, 96, 94, 114]",001500_Huyen,Fearful,focused,high engagement,9
+212,213,M. Nehal,None,1500,"[950, 475, 91, 106]",001500_M. Nehal,Surprised,focused,strong engagement,9
+213,214,U. Ueda,None,1500,"[244, 573, 151, 175]",001500_U. Ueda,Neutral,focused,low engagement,9
+214,215,Thuy,None,1525,"[439, 104, 111, 146]",001525_Thuy,Neutral,focused,low engagement,9
+215,216,Ho,None,1525,"[899, 54, 162, 206]",001525_Ho,Sad,focused,medium engagement,9
+216,217,M. Nehal,None,1525,"[942, 479, 94, 104]",001525_M. Nehal,Fearful,focused,high engagement,9
+217,218,Huyen,None,1525,"[147, 96, 93, 115]",001525_Huyen,Sad,focused,medium engagement,9
+218,219,U. Ueda,None,1525,"[245, 568, 149, 174]",001525_U. Ueda,Neutral,focused,low engagement,9
+219,220,Thuy,None,1550,"[437, 100, 109, 142]",001550_Thuy,Neutral,focused,low engagement,9
+220,221,M. Nehal,None,1550,"[916, 509, 85, 100]",001550_M. Nehal,Surprised,distracted,disengagement,9
+221,222,U. Ueda,None,1550,"[245, 571, 145, 172]",001550_U. Ueda,Happy,focused,medium engagement,9
+222,223,Huyen,None,1550,"[149, 94, 96, 119]",001550_Huyen,Sad,focused,medium engagement,9
+223,224,Ho,None,1550,"[1004, 63, 119, 175]",001550_Ho,Fearful,focused,high engagement,9
+224,225,Thuy,None,1575,"[421, 99, 103, 141]",001575_Thuy,Sad,focused,medium engagement,9
+225,226,M. Nehal,None,1575,"[910, 463, 113, 141]",001575_M. Nehal,Surprised,distracted,disengagement,9
+226,227,Ho,None,1575,"[886, 34, 164, 210]",001575_Ho,Fearful,focused,high engagement,9
+227,228,Huyen,None,1575,"[148, 93, 91, 112]",001575_Huyen,Sad,focused,medium engagement,9
+228,229,Thuy,None,1600,"[440, 101, 112, 141]",001600_Thuy,Neutral,focused,low engagement,9
+229,230,M. Nehal,None,1600,"[924, 461, 102, 130]",001600_M. Nehal,Surprised,distracted,disengagement,9
+230,231,Ho,None,1600,"[890, 49, 153, 200]",001600_Ho,Neutral,focused,low engagement,9
+231,232,Huyen,None,1600,"[136, 72, 88, 116]",001600_Huyen,Neutral,focused,low engagement,9
+232,233,Thuy,None,1625,"[442, 109, 109, 141]",001625_Thuy,Neutral,focused,low engagement,9
+233,234,Ho,None,1625,"[887, 51, 171, 218]",001625_Ho,Neutral,focused,low engagement,9
+234,235,M. Nehal,None,1625,"[925, 460, 105, 126]",001625_M. Nehal,Fearful,distracted,disengagement,9
+235,236,Huyen,None,1625,"[125, 59, 95, 118]",001625_Huyen,Sad,focused,medium engagement,9
+236,237,Thuy,None,1650,"[442, 109, 107, 140]",001650_Thuy,Neutral,focused,low engagement,9
+237,238,Ho,None,1650,"[892, 47, 165, 219]",001650_Ho,Happy,focused,medium engagement,9
+238,239,M. Nehal,None,1650,"[899, 494, 92, 109]",001650_M. Nehal,Neutral,distracted,disengagement,9
+239,240,Huyen,None,1650,"[110, 54, 96, 119]",001650_Huyen,Neutral,focused,low engagement,9
+240,241,Thuy,None,1675,"[445, 103, 113, 149]",001675_Thuy,Neutral,focused,low engagement,10
+241,242,M. Nehal,None,1675,"[914, 481, 97, 127]",001675_M. Nehal,Neutral,distracted,disengagement,10
+242,243,Ho,None,1675,"[895, 47, 168, 219]",001675_Ho,Sad,focused,medium engagement,10
+243,244,Thuy,None,1700,"[446, 110, 113, 146]",001700_Thuy,Neutral,focused,low engagement,10
+244,245,Ho,None,1700,"[890, 44, 175, 221]",001700_Ho,Fearful,focused,high engagement,10
+245,246,M. Nehal,None,1700,"[913, 464, 101, 130]",001700_M. Nehal,Happy,distracted,disengagement,10
+246,247,U. Ueda,None,1700,"[217, 556, 159, 184]",001700_U. Ueda,Neutral,focused,low engagement,10
+247,248,Thuy,None,1725,"[447, 112, 112, 140]",001725_Thuy,Neutral,focused,low engagement,10
+248,249,Ho,None,1725,"[875, 51, 176, 223]",001725_Ho,Neutral,focused,low engagement,10
+249,250,U. Ueda,None,1725,"[242, 551, 151, 184]",001725_U. Ueda,Sad,focused,medium engagement,10
+250,251,M. Nehal,None,1725,"[896, 498, 85, 105]",001725_M. Nehal,Sad,distracted,disengagement,10
+251,252,Thuy,None,1750,"[450, 110, 113, 143]",001750_Thuy,Neutral,focused,low engagement,10
+252,253,Ho,None,1750,"[954, 75, 150, 189]",001750_Ho,Happy,focused,medium engagement,10
+253,254,M. Nehal,None,1750,"[909, 490, 90, 112]",001750_M. Nehal,Neutral,distracted,disengagement,10
+254,255,U. Ueda,None,1750,"[245, 552, 147, 178]",001750_U. Ueda,Sad,focused,medium engagement,10
+255,256,Thuy,None,1775,"[447, 103, 113, 148]",001775_Thuy,Neutral,focused,low engagement,10
+256,257,U. Ueda,None,1775,"[251, 556, 143, 175]",001775_U. Ueda,Sad,focused,medium engagement,10
+257,258,Ho,None,1775,"[857, 43, 189, 247]",001775_Ho,Neutral,focused,low engagement,10
+258,259,M. Nehal,None,1775,"[908, 486, 89, 112]",001775_M. Nehal,Sad,distracted,disengagement,10
+259,260,Huyen,None,1775,"[115, 68, 99, 122]",001775_Huyen,Sad,focused,medium engagement,10
+260,261,Thuy,None,1800,"[447, 107, 111, 138]",001800_Thuy,Neutral,focused,low engagement,10
+261,262,M. Nehal,None,1800,"[910, 501, 84, 103]",001800_M. Nehal,Neutral,distracted,disengagement,10
+262,263,U. Ueda,None,1800,"[246, 560, 139, 171]",001800_U. Ueda,Sad,focused,medium engagement,10
+263,264,Ho,None,1800,"[792, 54, 259, 317]",001800_Ho,Neutral,focused,low engagement,10
+264,265,Huyen,None,1800,"[118, 69, 99, 120]",001800_Huyen,Sad,focused,medium engagement,10
+265,266,Thuy,None,1825,"[446, 102, 114, 148]",001825_Thuy,Neutral,focused,low engagement,10
+266,267,Ho,None,1825,"[798, 56, 259, 324]",001825_Ho,Neutral,focused,low engagement,10
+267,268,M. Nehal,None,1825,"[907, 499, 89, 104]",001825_M. Nehal,Neutral,distracted,disengagement,10
+268,269,U. Ueda,None,1825,"[243, 559, 141, 173]",001825_U. Ueda,Neutral,focused,low engagement,10
+269,270,Huyen,None,1825,"[164, 67, 91, 112]",001825_Huyen,Neutral,focused,low engagement,10
+270,271,Ho,None,1850,"[811, 55, 246, 314]",001850_Ho,Fearful,focused,high engagement,10
+271,272,Thuy,None,1850,"[439, 105, 113, 147]",001850_Thuy,Neutral,focused,low engagement,10
+272,273,M. Nehal,None,1850,"[916, 495, 84, 106]",001850_M. Nehal,Happy,distracted,disengagement,10
+273,274,U. Ueda,None,1850,"[246, 557, 144, 178]",001850_U. Ueda,Sad,focused,medium engagement,10

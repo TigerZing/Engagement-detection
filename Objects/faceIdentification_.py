@@ -5,6 +5,7 @@ import numpy as np
 import os.path as osp
 import tensorflow as tf
 from Objects import student_
+import math
 
 def caculate_similarity(face, student_list):
     sift = cv2.xfeatures2d.SIFT_create()
@@ -39,7 +40,7 @@ def caculate_similarity(face, student_list):
             return isSimilar, None
         return True, student_list[similarity_all.index(min(similarity_all))]
 
-def identify_face(control, face, face_coord, student_list):
+def identify_face_backup(control, face, face_coord, student_list):
 
     threshold=  0.8*(max(face_coord[2],face_coord[3])) # set distance
     face_point = ((face_coord[0]+face_coord[2])//2,(face_coord[1]+face_coord[3])//2)
@@ -62,7 +63,8 @@ def identify_face(control, face, face_coord, student_list):
             student._face_region = face
             return student
         else:
-            new_student = student_.Student(str(control._count_face), str(control._count_face))
+            new_student = student_.Student(str("21R"+"%03d"%int(control._set_id_face)), str(control._set_id_face))
+            control._set_id_face +=1
             #id_ = osp.splitext(osp.basename(config.video_path))[0]+"_"+"%06d"%control.index_frame+"_"+"%06d"%control.index_face # ID of face
             new_student._face_point = face_point
             new_student._face_region = face
@@ -71,4 +73,25 @@ def identify_face(control, face, face_coord, student_list):
     else:
         findedstudent._face_point = face_point
         findedstudent._face_region = face
+    return findedstudent
+
+def identify_face(face_point, student_list):
+    #threshold=  0.8*(max(face_coord[2],face_coord[3])) # set distance
+    
+    min_distance = None
+    findedstudent = None
+    for idx, student in enumerate(student_list):
+
+        distance = int(math.sqrt(abs(face_point[0]-student._face_point[0])**2+abs(face_point[1]-student._face_point[1])**2))
+        #print("student name: {}".format(student._name))
+        #print(face_point)
+        #print(student._face_point)
+        #print("distance: {}".format(distance))
+        if idx == 0:
+            min_distance = distance
+            findedstudent = student
+        elif distance< min_distance:
+            min_distance = distance
+            findedstudent = student
+    
     return findedstudent

@@ -11,7 +11,7 @@ def detect_engagement(emotion, attention):
     engagement_level = None
     if attention is None:
         engagement_level = "medium engagement"
-    elif attention == "focus":
+    elif attention == "focused":
         if emotion == "Disgusted" or emotion == "Surprised":
             engagement_level = "strong engagement"
         elif emotion == "Angry" or emotion == "Fearful":

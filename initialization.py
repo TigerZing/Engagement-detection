@@ -15,6 +15,7 @@ import Api_tools.IO_file as IO_file # import api_tools
 from tools import *                     # import tools
 # -Import Objects-
 from Objects import config_
+from Objects import config_webservice_
 from Objects import inputSource_
 from Objects import faceDetection_
 from Objects import emotionDetection_
@@ -31,6 +32,16 @@ def initialize_Config():
     print("Ok")
     return config
  
+def initialize_Config_Webservice():
+    # Read config
+    print("Read config webservice file ...",end=" ")
+    #parsed_config = IO_file.read_config("/home/hont/Engagement_Detection/config_webservice.yml")
+    parsed_config = IO_file.read_config(osp.join(os.path.dirname(os.path.abspath(__file__)),"config_webservice.yml"))
+    config = config_webservice_.Config_Webservice()
+    config = config.import_config(parsed_config)
+    print("Ok")
+    return config
+
 def initialize_inputSource(config):
     # Process source_video
     print("Process input_source ...",end=" ")

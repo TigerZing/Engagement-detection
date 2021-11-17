@@ -10,7 +10,10 @@ from tensorflow.keras.layers import Conv2D
 from tensorflow.keras.optimizers import Adam
 from tensorflow.keras.layers import MaxPooling2D
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
-
+from tensorflow.keras.models import load_model
+from tensorflow.keras.preprocessing.image import img_to_array
+EMOTIONS = ["angry","disgust","scared", "happy", "sad", "surprised","neutral"]
+EMOTIONS_TRANSLATE = {"angry":"Angry","disgust":"Disgusted","scared":"Fearful", "happy":"Happy", "sad":"Sad", "surprised":"Surprised","neutral":"Neutral"}
 class EmotionDetection:
     def __init__(self):
         # basic infos
@@ -30,6 +33,10 @@ class EmotionDetection:
             self.type = "haarcascade_emotionDetection"
             self.path = osp.join(config.algorithm_path,self.type)
             self.weight_path = osp.join(self.path,'model.h5')
+        elif config.type_emotionDetection =="mini_xception_emotionDetection":
+            self.type = "mini_xception_emotionDetection"
+            self.path = osp.join(config.algorithm_path,self.type)
+            self.weight_path = osp.join(self.path,'_mini_XCEPTION.36-0.61.hdf5')
         else:
             print("[Error] The type of faceDetection is unknown!")
         # process
@@ -55,6 +62,9 @@ class EmotionDetection:
                 model.add(Dense(7, activation='softmax'))
                 model.load_weights((self.weight_path))
                 return model
+        elif self.type == "mini_xception_emotionDetection":
+            emotion_classifier = load_model(self.weight_path, compile=False)
+            return emotion_classifier
     
     def detect_emotions(self, emotionDetector, roi_gray):
         maxindex = None
@@ -62,7 +72,16 @@ class EmotionDetection:
             cropped_img = np.expand_dims(np.expand_dims(cv2.resize(roi_gray, (48, 48)), -1), 0) # resize gray face to feed into network
             prediction = emotionDetector.predict(cropped_img)
             maxindex = int(np.argmax(prediction))
-        return self.emotion_dict[maxindex]
+            return self.emotion_dict[maxindex]
+        if self.type == "mini_xception_emotionDetection":
+            roi = cv2.resize(roi_gray, (48, 48))
+            roi = roi.astype("float") / 255.0
+            roi = img_to_array(roi)
+            roi = np.expand_dims(roi, axis=0)
+            preds = emotionDetector.predict(roi)[0]
+            emotion_probability = np.max(preds)
+            label = EMOTIONS_TRANSLATE[EMOTIONS[preds.argmax()]]
+            return label
 
 
 

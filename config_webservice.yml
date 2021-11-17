@@ -1,0 +1,5 @@
+# basic configs
+basic_config:
+  database_path: "Database/main.db"
+  reset_analytic_tables: True
+  write2File: True

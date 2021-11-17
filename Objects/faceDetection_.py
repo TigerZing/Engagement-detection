@@ -39,7 +39,7 @@ class FaceDetection:
     def detect_faces(self, faceDetector, frame):
         if self.type == "haarcascade_faceDetection":
             frame = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
-            faces = faceDetector.detectMultiScale(frame, 1.7, 5)
+            faces = faceDetector.detectMultiScale(frame, 1.3, 5)
             faces = list(faces)
         elif self.type == "mtcnn":
             faces = faceDetector.detect_faces(frame)

@@ -1,16 +1,22 @@
   # basic configs
 basic_config:
   project_path: "/home/hont/Engagement_Detection"
-  time_process: 0.13 # Every time_process seconds, pickup 1 frame to process
-  #source_video: "/home/hont/Engagement_Detection/tiger.mov"
-  source_video: "/home/hont/input.mp4"
+  time_process: 0.2 # Every time_process seconds, pickup 1 frame to process
+  #source_video: "https://www.youtube.com/watch?v=gunaWMrfOoc"
+  source_video: "/home/hont/input_video/input1.mp4"
   #source_video: 0
+
   # kind of algorithms configs
 type_config:
-  type_faceDetection: "haarcascade_faceDetection" # haarcascade_faceDetection|mtcnn
-  type_emotionDetection: "haarcascade_emotionDetection" # haarcascade
+  type_faceDetection: "mtcnn" # haarcascade_faceDetection|mtcnn
+  type_emotionDetection: "haarcascade_emotionDetection" # haarcascade_emotionDetection|mini_xception_emotionDetection
   type_landMaskDetection: "68_landmarks" # haarcascade
   type_eyeGazeEstimation: "pnp_algorithm" # pnp_algorithm
+
+  # three kinds of our methods: concentration_index, traditional_mapping, math_method
+method_mapping_config: 
+  method_mapping: "traditional_mapping"
+  
   # algorithm settings configs
 algorthms_settings_config:
   turnOn_face_identification: True
@@ -25,8 +31,8 @@ database_config:
   # processing settings
 processing_settings:
   # -------
-  write2File: True
-  outputFile_path: "/home/hont/out.mp4"
+
+  outputFile_path: "/home/hont/input_video/output.mp4"
   # -------
   showFrame: False
   # -------
